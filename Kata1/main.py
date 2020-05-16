@@ -1,18 +1,19 @@
-'''
-Hola esto es un comentario
-'''
+"""
+Una panaderia vende barras de pan a 3,49 cada una. El pan que 
+no es del dia tiene un descuento del 60%.
+Escribe un programa que comience leyendo el numero de barras vendidas 
+que no son del dia. Despues tu programa debe mostrar el precio habitual de 
+una barra de pan, el descuento se le hace por no ser fresca y el coste 
+final total.
+"""""
 
-# Variables (tambien es un comentario)
+precio = 3.49
+descuento = 1 - 0.6
+precio_con_descuento = precio * descuento
 
-nombre = 'Miguel F. '
-edad = 14
-esta_Trabajando = True # False
+numero_de_barras = input('Introduce el numero de barras vendidas:')
+numero_de_barras = int(numero_de_barras)
 
-dato = input ('introduce un Dato: ')
-
-if( edad >= 18 ):
-    nombre2 = input('Tu nombre: ')
-    print(nombre2 + ' ' + 'eres mayor de edad')
-else:
-        print('Eres un crio')
-
+print("Precio habitual "+ str(precio))
+print("Descuento "+ str(precio_con_descuento))
+print("Coste final: " + str(numero_de_barras * precio_con_descuento))

@@ -16,3 +16,5 @@ Extra .- git log ( para ver commit realizados
 .code --> comando sincronizar versiones python y visual code ( escribir en consola)
 
 git push sincronizar con el repositorio web
+
+git push -u origin master
