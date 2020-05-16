@@ -1,0 +1,7 @@
+git config --global user.name "FIRST_NAME LAST_NAME"
+git config --global user.email "YOUR@EMAIL"
+
+.code --> comando sincronizar versiones python y visual code ( escribir en consola)
+git log --> Ver los commit
+
+git push sincronizar con el repositorio web
