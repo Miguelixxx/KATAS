@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 # Definimos algunas funciones para los comandos. Estos generalmente toman los dos argumentos update y context
 def start(update, context):
     """Envia un mensaje cuando se emita el comando /start."""
-    update.message.reply_text('Hola, Geeks!')
+    update.message.reply_text('Hola, Geeks by Miguelix!')
 
 
 def help(update, context):
@@ -49,7 +49,7 @@ def main():
     """Inicio del Bot"""
 
     #Colocamos el Token creado por FatherBot
-    updater = Updater("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", use_context=True)
+    updater = Updater("1264750328:AAGgsiSMbSi2Vz86LjqZKtjj0wzHc63R7aw", use_context=True)
 
     # Es el Registro de Comandos
     dp = updater.dispatcher
